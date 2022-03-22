@@ -5,41 +5,108 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Sam's personal Website</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Audiowide&display=swap&effect=fire|neon|outline|shadow-multiple|emboss">
+	<title>Rajan kumar</title>
+	<style>
+		* { box-sizing: border-box; }
+		.clearfix {
+			display: flex;
+			width: 100%;
+		}
+		.column {
+			float: left;
+			padding: 15px;
+		}
+		.menu {
+			width: 25%;
+		}
+		.content {
+			width: 75%;
+		}
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		body { margin: 0px; }
+		.header {
+			background-color: gray;
+			margin: 0px;
+			padding: 20px;
+			text-align: center;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		li {
+			padding: 15px;
+			background-color: skyblue;
+			margin: 5px;
+		}
+		li:hover {
+			background-color: rgb(40, 183, 240);
+		}
+		.footer {
+			font-size: 30px;
+			text-align: center;
+			background-color: gray;
+			padding: 10px;
+		}
+
+	</style>
 </head>
 <body>
-	<h1>Sam Billings Personal Website</h1>
-	<img src="round_image.png" alt="Round Prophile images">
-	<p>Hi! This is Sam billings and nice to have you on my website.</p>
-
-	<div class="login">
-		<div>
-			<h2>login</h2>
-			<label for="email">Usename</label>
-			<input type="email" name="name" placeholder="Type your usename"><br>
-	
-			<label for="pass">Password</label>
-			<input type="password" name="pass" placeholder="Type your password">
-	
-			<p class="pass">Forgot password?</p>
-			<input type="submit" value="LOGIN">
-			
+	<div class="header">
+		<h1>Chania</h1>
+	</div>
+	<div class="clearfix">
+		<div class="column menu">
+			<ul>
+				<li>The Flight</li>
+				<li>The City</li>
+				<li>The Island</li>
+				<li>The Food</li>
+			</ul>
 		</div>
 	
-		<div class="sign-up" >
-			<p>Or Sign Up Using</p>
-			<a href="https://www.spotify.com">
-				<img class="logo" src="images/spotify_logo.png" alt="Spotify">
-			</a>
-			<a href="https://www.facebook.com">
-				<img class="logo" src="images/facebook_logo.png" alt="Facebooks">
-			</a>
-			<a class="logo" href="https://www.instagram.com">
-				<img class="logo" src="images/instagram.jpeg" alt="instagram">
-			</a>
+
+		<div class="column content">
+			<h1>The City</h1>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor nisi officia harum ducimus mollitia voluptatum enim inventore doloremque minus. Consequuntur vitae minus, itaque eos magni expedita. Repudiandae sunt placeat officia.</p>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quod eaque quia eveniet dignissimos consequuntur, minus, sequi rerum inventore voluptatibus cumque libero? Doloremque in velit dolore vitae. Quasi fugiat tempora quidem dignissimos quae unde provident architecto nisi enim obcaecati ratione eum possimus, hic ex perferendis minima laborum, eos, ab maxime!</p>
 		</div>
 	</div>
+	<div class="footer">
+		<p>Footer Text</p>
+	</div>
 
-	
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
